@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+section {
+  display: block;
+}
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #ec715f;
+}
+
+.mv {
+  width: 100%;
+  height: 650px;
+  background-image: url(mysite/mv.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.mv-title {
+  font-size: 64px;
+  color: #fafafa;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.mv-content {
+  text-align: center;
+  padding-top: 10px;
+  color: #fafafa;
+  font-size: 20px;
+}
+
+.portfolio-main {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio-title {
+  text-align: center;
+  font-size: 32px;
+  color: #000000;
+  padding-top: 90px;
+}
+
+.portfolio-title::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  background-color: #ec715f;
+}
+
+.portfolio-content {
+  padding-top: 30px;
+  width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.picture-area {
+  width: 920px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
+.portfolio-picture {
+  float: left;
+  width: 300px;
+  height: 250px;
+  margin: 0 10px 10px 0;
+}
+
+.portfolio-picture:nth-child(3n) {
+  margin-right: 0;
+}
+
+.feature-title {
+  margin: 0 auto 0 auto;
+  width: 980px;
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.feature-title::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  background-color: #ec715f;
+}
+
+.feature-content {
+  width: 980px;
+  margin: 30px auto 0 auto;
+  text-align: center;
+}
+
+.strength-area {
+  width: 980px;
+  margin: 30px auto 90px auto;
+  display: flex;
+}
+
+.strength1 {
+  width: 320px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.fa-code::before {
+  display: block;
+  size: 100px;
+  align-items: center;
+}
+
+.strength1-title {
+  text-align: center;
+  font-size: 20px;
+  color: #000000;
+  padding: 10px 0 10px 0;
+  display: block;
+}
+
+.strength1-content {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+  width: 320px;
+}
+
+.strength2 {
+  font-size: 60px;
+  text-align: center;
+  width: 320px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.fa-desktop {
+  size: 60px;
+  align-items: center;
+}
+
+.strength2-title {
+  text-align: center;
+  font-size: 20px;
+  color: #000000;
+  padding: 10px 0 10px 0;
+}
+
+.strength2-content {
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+  width: 320px;
+}
+
+.strength3 {
+  width: 320px;
+  height: auto;
+}
+
+.icon1 {
+  size: 60px;
+  align-items: center;
+}
+
+.strength3-title {
+  text-align: center;
+  font-size: 20px;
+  color: #000000;
+  padding: 10px 0 10px 0;
+}
+
+.strength3-content {
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+  width: 320px;
+}
+
+.profile-title {
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: #ec715f;
+}
