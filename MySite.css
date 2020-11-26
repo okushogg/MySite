@@ -37,8 +37,11 @@ header {
 }
 
 .portfolio-main {
+  width: 100%;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
+  background-color: #eeecec;
 }
 
 .portfolio-title {
@@ -68,7 +71,7 @@ header {
 .picture-area {
   width: 920px;
   padding: 30px 0 90px 0;
-  margin: 0 auto;
+  margin: 90 auto;
 }
 
 .portfolio-picture {
@@ -83,12 +86,12 @@ header {
 }
 
 .feature-title {
-  margin: 0 auto 0 auto;
+  display: block;
+  margin: 90px auto 0 auto;
   width: 980px;
   font-size: 32px;
   color: #000000;
   text-align: center;
-  padding-top: 90px;
 }
 
 .feature-title::after {
@@ -113,15 +116,11 @@ header {
 }
 
 .strength1 {
+  font-size: 60px;
+  text-align: center;
   width: 320px;
   height: auto;
   margin-right: 10px;
-}
-
-.fa-code::before {
-  display: block;
-  size: 100px;
-  align-items: center;
 }
 
 .strength1-title {
@@ -148,10 +147,6 @@ header {
   margin-right: 10px;
 }
 
-.fa-desktop {
-  size: 60px;
-  align-items: center;
-}
 
 .strength2-title {
   text-align: center;
@@ -168,14 +163,12 @@ header {
 }
 
 .strength3 {
+  font-size: 60px;
+  text-align: center;
   width: 320px;
   height: auto;
 }
 
-.icon1 {
-  size: 60px;
-  align-items: center;
-}
 
 .strength3-title {
   text-align: center;
@@ -191,8 +184,149 @@ header {
   width: 320px;
 }
 
-.profile-title {
+#profile {
+  background-color: #eeecec;
 }
+
+.profile-container{
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.profile-title {
+  padding-top: 90px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.profile-title::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  background-color: #ec715f;
+}
+
+.profile-content {
+  text-align: center;
+  font-size: 16px;
+  padding: 30px 0 30px 0;
+}
+
+.right {
+  float:none;
+  width: 100%;
+}
+
+.my-picture {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-image: url(mysite/my-icon.jpg);
+}
+
+.left {
+  float:none;
+  width: 100%;
+}
+
+.my-name {
+  display: block;
+  width:512px;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.my-name-content {
+  display: block;
+  width:512px;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.profile-group {
+  display: flex;
+  text-align: center;
+  margin: 30px auto 90px auto;
+}
+
+.myskill {
+  display: block;
+  width:512px;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.myskill-content {
+  display: block;
+  width:512px;
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+
+.contact-title {
+  padding-top: 90px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.contact-title::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  background-color: #ec715f;
+}
+
+.contact-content {
+  text-align: center;
+  font-size: 16px;
+  padding: 30px 0 30px 0;
+}
+
+.contact-group {
+  display: flex;
+  width: 800px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
+.contact-left {
+  margin: 0 auto;
+}
+
+.mail {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.mail-content {
+  padding-bottom: 20px;
+}
+
+.tell {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.contact-right {
+  font-size: 50px;
+  margin: 0 auto;
+  padding-right: 20px;
+}
+
+.i :nth(4) {
+  padding-right: 0px;
+}
+
+.SNS {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
 
 footer {
   width: 100%;
